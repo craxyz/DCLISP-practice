@@ -116,7 +116,7 @@ $$
              ((lessp x y) (gcd x (- y x)))))
    ```
 
-### 1.6 对上题的（3）给出计算 (GCD 10 14) 的调用关系图
+### 1.6 对上题的（3）给出计算`(GCD 10 14)`的调用关系图
 
 ```mermaid
 graph LR
@@ -140,7 +140,7 @@ E --> F["2"]
 (de g (x y) (f x y 1))
 ```
 
-### 1.8 写出 square-root 函数用尾递归计算的定义
+### 1.8 写出`square-root`函数用尾递归计算的定义
 
 ```lisp
 (de good-enough (guess x)
@@ -156,7 +156,7 @@ E --> F["2"]
 (de square-root (x) (sqrt-iter 1.0 x))
 ```
 
-### 1.9 Fibonacci 数列的通项公式是
+### 1.9 `Fibonacci`数列的通项公式是
 
 $$
 a_n = \begin{cases}
@@ -209,7 +209,7 @@ f(5) &= h(5, 0, 1) \\
 \end{alignat}
 $$
 
-### 1.10 写出 Ackermann 函数的定义，画出 Ack(2, 1) 的调用关系图
+### 1.10 写出`Ackermann`函数的定义，画出`Ack(2, 1)`的调用关系图
 
 $$
 Ack(n, m) = \begin{cases}
